@@ -34,6 +34,11 @@
     --white_10: hsl(0, 0%, 100%, 0.1);
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
   
     /**
      * typography
@@ -180,6 +185,11 @@
     aspect-ratio: var(--width) / var(--height);
     background-color: var(--light-gray);
     overflow: hidden;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
   }
   
   .has-before {
@@ -196,6 +206,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
   }
   
   .section-subtitle {
@@ -301,8 +316,10 @@
   \*-----------------------------------*/
   
   .news-card .card-text { margin-block-end: 5px; }
-  
-  
+
+
+
+
   
   
   
