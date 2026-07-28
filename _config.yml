@@ -1,0 +1,80 @@
+title: Yukia｜独立站 SEO 与海外增长
+subtitle: 从关键词、页面和内容，到索引、归因与线索质量
+description: Yukia 关于独立站 SEO、海外内容运营与 Digital Growth 的实践笔记，关注搜索需求、页面决策、索引诊断和线索质量。
+keywords:
+  - 独立站 SEO
+  - 海外内容运营
+  - Digital Growth
+  - B2B SEO
+author: 朱宇锴（Yukia）
+language: zh-CN
+timezone: Asia/Shanghai
+
+url: https://th1s1syukia.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults: {}
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render: []
+
+new_post_name: :year-:month-:day-:title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude:
+    - th1s1syukia.github.io
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: false
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ""
+  wrap: true
+  hljs: false
+
+index_generator:
+  path: ""
+  per_page: 10
+  order_by: -date
+per_page: 10
+pagination_dir: page
+
+theme: sea
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 30
+  hub:
+  content: true
+  content_limit: false
+  order_by: -date
+
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+marked:
+  prependRoot: true
+  postAsset: false
+  smartypants: false
+  headerIds: true
+  mangle: false
