@@ -1,0 +1,48 @@
+home:
+  hero:
+    name: Yukia
+    intro: 从关键词、页面和内容，到索引、归因与线索质量
+    avatar:
+  posts: recent
+
+articles:
+  path: archives
+  per_page: 10
+  order_by: -date
+
+menu:
+  - name: 文章
+    url: /archives/
+  - name: 分类
+    url: /categories/
+  - name: 标签
+    url: /tags/
+  - name: 编辑说明
+    url: /editorial-policy/
+  - name: 关于
+    url: /about/
+
+comment:
+  enable: false
+  type:
+
+search:
+  enable: false
+  type:
+
+counter:
+  enable: false
+  type:
+
+footer:
+  builtUpTime: 2023-07-12 00:00:00
+
+socialLink:
+  - name: GitHub
+    link: https://github.com/Th1s1sYukia
+  - name: RSS
+    link: /atom.xml
+
+primaryColor: "#0f766e"
+fontFamily: '"Inter", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif'
+favicon: /favicon.svg
