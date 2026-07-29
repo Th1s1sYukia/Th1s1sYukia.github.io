@@ -1,5 +1,6 @@
 .sea-header {
   width: 100%;
+  height: var(--sea-nav-height);
   border-bottom: 1px solid var(--sea-color-divider);
 }
 

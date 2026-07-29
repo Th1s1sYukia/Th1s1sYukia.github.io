@@ -1,6 +1,6 @@
 ---
 title: "B2B 独立站 SEO 不止是流量：从查询到线索质量的增长闭环"
-date: 2026-07-28 09:10:00
+date: "2025-12-11 10:00:00"
 updated: 2026-07-28 09:10:00
 description: "用 Query、Landing Page、Conversion 与 Lead Quality 四层框架，把 B2B 独立站 SEO 从流量报表连接到页面决策和线索反馈。"
 categories:

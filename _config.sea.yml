@@ -43,6 +43,7 @@ socialLink:
   - name: RSS
     link: /atom.xml
 
-primaryColor: "#0f766e"
-fontFamily: '"Inter", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif'
+primaryColor: "#10b981"
+fontFamily: "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+navTitle: Scout Yukia
 favicon: /favicon.svg

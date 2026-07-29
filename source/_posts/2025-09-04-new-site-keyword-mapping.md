@@ -1,6 +1,6 @@
 ---
 title: "新站 SEO 从 0 到 1：为什么先做 Keyword Mapping，再写第一篇博客"
-date: 2026-07-28 09:20:00
+date: "2025-09-04 10:00:00"
 updated: 2026-07-28 09:20:00
 description: "从搜索定位、关键词分组、页面角色到发布顺序，说明新站为什么应先做 Keyword Mapping，再投入博客内容生产。"
 categories:

@@ -13,9 +13,6 @@
       <div class="sea-post-abstract">
         {% if post.abstract %}
           {{ post.abstract }}
-        {% else %}
-          {% set content = truncate(post.content, {length: 300, separator: ' '}) %}
-          {{ strip_html(content) }}
         {% endif %}
       </div>
       <div class="sea-post-meta">
