@@ -30,6 +30,11 @@ REQUIRED_PATHS = [
     "insights/gsc-high-impression-low-ctr/index.html",
     "insights/wix-discovered-not-indexed/index.html",
     "insights/seo-ads-lead-attribution/index.html",
+    "insights/international-seo-site-architecture/index.html",
+    "insights/b2b-product-pages-vs-blog/index.html",
+    "insights/seo-content-audit-diagnosis/index.html",
+    "insights/gsc-ga4-data-mismatch/index.html",
+    "insights/seo-content-brief-serp-research/index.html",
 ]
 
 READER_FACING_RESUME_LANGUAGE = re.compile(
