@@ -19,10 +19,13 @@ REQUIRED = {
 }
 REFERENCE_RE = re.compile(
     r"^- .+：《\[[^]]+\]\(https?://[^)]+\)》"
-    r"（(?:官方|第一方)，页面未标注发布日期）$",
+    r"（(?:官方|第一方)，(?:页面未标注发布日期|发布/更新：\d{4}-\d{2}-\d{2})）$",
     re.M,
 )
-OFFICIAL_RE = re.compile(r"（(?:官方|第一方)，页面未标注发布日期）")
+OFFICIAL_RE = re.compile(
+    r"（(?:官方|第一方)，(?:页面未标注发布日期|发布/更新：\d{4}-\d{2}-\d{2})）"
+)
+SOURCE_DATE_RE = re.compile(r"发布/更新：(\d{4}-\d{2}-\d{2})")
 METRIC_RE = re.compile(r"\b(?:29K|1\.9M|9\.22K|1\.42M|3,000\+|310K)\b", re.I)
 DISCLAIMER = "以上为任职期间网站整体表现，不作个人单一归因。"
 
@@ -79,6 +82,12 @@ def validate(path: Path) -> list[str]:
         internal_links = re.findall(r"\[[^]]+\]\((/[^)]+)\)", body)
         if not internal_links:
             errors.append("missing internal link")
+        post_updated = frontmatter.get("updated", "").strip("\"'")[:10]
+        for source_date in SOURCE_DATE_RE.findall(body):
+            if post_updated and source_date > post_updated:
+                errors.append(
+                    f"source date {source_date} is later than post updated date {post_updated}"
+                )
 
     if METRIC_RE.search(body) and DISCLAIMER not in body:
         errors.append("resume metrics require the site-wide, non-sole-attribution disclaimer")
