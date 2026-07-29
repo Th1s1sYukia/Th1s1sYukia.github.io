@@ -19,8 +19,6 @@ SEO、Google Ads 和 LinkedIn Ads 常被拆成三个报表：自然搜索看点�
 
 我的观点是：**跨渠道应该共用一套数据合同，而不是强迫所有渠道共用同一份页面文案。** 这套合同由五层组成：页面身份、渠道参数、表单事件、去重键、线索阶段。
 
-我在公开履历中的相关范围，是参与 Website Form、Email、WhatsApp 等线索的渠道分类、UTM、落地页、查重及生命周期记录需求梳理，并协作广告落地页与表单承接。本文讨论通用框架，不披露内部销售数据，也不宣称某种归因配置带来未经核验的提升。
-
 ## 第一层：给页面一个跨渠道身份
 
 同一方案可能有自然搜索页、广告专用页和活动页。它们不必共享 URL，但应共享可以对照的 `page_family` 与 `offer_id`：
@@ -51,7 +49,7 @@ SEO 自然流量通常不需要人为添加 UTM；给站内链接加 UTM 还可�
 
 ## 第三层：表单事件分“提交”与“业务状态”
 
-截至 2026-07-28，GA4 推荐事件包含 `generate_lead`、`qualify_lead`、`working_lead`、`close_convert_lead` 和 `close_unconvert_lead` 等 lead generation 事件。可据此建立一条分析上可理解的生命周期，但命名只是起点。
+GA4 推荐事件包含 `generate_lead`、`qualify_lead`、`working_lead`、`close_convert_lead` 和 `close_unconvert_lead` 等 lead generation 事件。可据此建立一条分析上可理解的生命周期，但命名只是起点。
 
 建议把事件分为两类：
 
@@ -122,11 +120,10 @@ LinkedIn 的第一方说明提到，Insight Tag 的增强转化跟踪可使用 c
 
 - 从 Query 到线索质量的总框架：[B2B SEO 的四层增长闭环](/insights/b2b-seo-lead-quality-loop/)
 - 如何为新站定义页面角色：[先做 Keyword Mapping](/insights/new-site-keyword-mapping/)
-- 作者能力和披露范围：[关于 Yukia](/about/)
 
 ## 参考资料
 
-- Google Analytics：《[URL builders: Collect campaign data with custom URLs](https://support.google.com/analytics/answer/10917952?hl=en)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Google Analytics：《[Recommended events](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#generate_lead)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- LinkedIn Marketing Solutions：《[Enable first-party cookies on a LinkedIn Insight Tag](https://www.linkedin.com/help/lms/answer/a423304)》，更新/发布：未标注，访问：2026-07-28。（第一方）
-- Google Search Central：《[Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)》，更新/发布：未标注，访问：2026-07-28。（官方）
+- Google Analytics：《[URL builders: Collect campaign data with custom URLs](https://support.google.com/analytics/answer/10917952?hl=en)》（官方，页面未标注发布日期）
+- Google Analytics：《[Recommended events](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#generate_lead)》（官方，页面未标注发布日期）
+- LinkedIn Marketing Solutions：《[Enable first-party cookies on a LinkedIn Insight Tag](https://www.linkedin.com/help/lms/answer/a423304)》（第一方，页面未标注发布日期）
+- Google Search Central：《[Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)》（官方，页面未标注发布日期）

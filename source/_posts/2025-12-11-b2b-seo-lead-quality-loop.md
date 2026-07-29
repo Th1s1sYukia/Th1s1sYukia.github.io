@@ -20,7 +20,7 @@ B2B 独立站的 SEO 报表很容易停在点击、展示和排名。但如果�
 
 > Query → Landing Page → Conversion → Lead Quality
 
-四层中任何一层断开，团队都会得到一个局部正确、整体失真的答案。以下框架来自我在多站点 SEO、落地页与线索记录需求梳理中的工作方法。它不是某个平台的官方漏斗，也不包含内部销售数据。
+四层中任何一层断开，团队都会得到一个局部正确、整体失真的答案。这不是某个平台的官方漏斗，而是一套用于检查信息是否断层的工作框架。
 
 ## 第一层：Query 不是词，而是任务
 
@@ -50,7 +50,7 @@ Google 的 SEO Starter Guide 将 SEO 描述为帮助搜索引擎理解内容，�
 
 ## 第三层：Conversion 要记录上下文
 
-表单提交只是行为，不等于业务结果。截至 2026-07-28，GA4 的推荐事件中不只有 `generate_lead`，还包括 `qualify_lead`、`working_lead`、`close_convert_lead` 等线索生命周期事件。它提示了一件重要的事：分析不必停在“有人提交”。
+表单提交只是行为，不等于业务结果。GA4 的推荐事件中不只有 `generate_lead`，还包括 `qualify_lead`、`working_lead`、`close_convert_lead` 等线索生命周期事件。它提示了一件重要的事：分析不必停在“有人提交”。
 
 但事件名不会自动解决归因。至少需要把以下上下文带到可管理的记录里：
 
@@ -107,16 +107,13 @@ Google Analytics 的 URL builder 文档说明，`utm_source`、`utm_medium`、`u
 
 还要避免为了归因而过度采集。表单与追踪字段应遵循必要性原则，并接受隐私、法务和平台政策审查。线索质量反馈适合聚合用于选题和页面决策，不适合把个人敏感信息带入通用分析工具。
 
-我在公开履历中提到的多站点表现均为任职期间的网站整体表现，不作个人单一归因。本文只使用公开方法范围，不披露内部线索与销售数据。
-
 ## 延伸阅读
 
 - 新站如何先分配页面角色：[为什么先做 Keyword Mapping，再写第一篇博客](/insights/new-site-keyword-mapping/)
 - 跨渠道如何统一字段：[SEO、Google Ads 和 LinkedIn Ads 的线索归因框架](/insights/seo-ads-lead-attribution/)
-- 本站如何处理事实、经历与 AI：[编辑与 AI 使用说明](/editorial-policy/)
 
 ## 参考资料
 
-- Google Search Central：《[Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Google Analytics：《[Recommended events](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#generate_lead)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Google Analytics：《[URL builders: Collect campaign data with custom URLs](https://support.google.com/analytics/answer/10917952?hl=en)》，更新/发布：未标注，访问：2026-07-28。（官方）
+- Google Search Central：《[Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)》（官方，页面未标注发布日期）
+- Google Analytics：《[Recommended events](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#generate_lead)》（官方，页面未标注发布日期）
+- Google Analytics：《[URL builders: Collect campaign data with custom URLs](https://support.google.com/analytics/answer/10917952?hl=en)》（官方，页面未标注发布日期）

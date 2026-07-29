@@ -29,8 +29,6 @@ Google 的 SEO Starter Guide 强调，SEO 要帮助搜索引擎理解内容，�
 3. **发布冲突**：内容先发布，但其应该链接的商业页还不存在。
 4. **衡量冲突**：没有预先定义页面任务，发布后只能看泛流量。
 
-在 NovaHaus 类新站项目中，我参与的公开工作范围包括第一阶段搜索定位、Keyword Mapping、核心商业页面规划以及 GA4/GSC 接入。这里讨论的是这类工作的通用方法，不披露内部关键词、页面或项目结果。
-
 ## 第一步：先定义搜索市场，不先收集“大词”
 
 我会先写三条边界：
@@ -117,16 +115,15 @@ Keyword Mapping 不是一次性关键词分配，也不是保证排名的计划�
 
 它也不适合把每个长尾词都变成独立页。若页面之间没有实质内容差异，批量建页会制造薄弱、重复和难维护的内容。另一个失败模式是只由 SEO 完成 Mapping，却没有产品、销售或交付团队校验页面承诺；这样得到的是搜索上合理、业务上不可兑现的架构。
 
-最后，示例中的词和页面只是用于解释方法，不是 NovaHaus 或其他真实项目数据，也不代表任何效果承诺。
+最后，示例中的词和页面只用于解释方法，不对应真实项目数据，也不代表任何效果承诺。
 
 ## 延伸阅读
 
 - 页面上线后如何分配迭代资源：[高曝光低点击页面的 GSC 优先级方法](/insights/gsc-high-impression-low-ctr/)
 - 如何把页面连接到线索质量：[B2B SEO 的四层增长闭环](/insights/b2b-seo-lead-quality-loop/)
-- 了解作者的经历边界：[关于 Yukia](/about/)
 
 ## 参考资料
 
-- Google Search Central：《[Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Google Search Central：《[Influencing your title links in search results](https://developers.google.com/search/docs/appearance/title-link)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Wix：《[Submitting Your Sitemap and URLs Directly to Search Engines](https://support.wix.com/en/article/submitting-your-sitemap-and-urls-directly-to-search-engines)》，更新/发布：未标注，访问：2026-07-28。（第一方）
+- Google Search Central：《[Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)》（官方，页面未标注发布日期）
+- Google Search Central：《[Influencing your title links in search results](https://developers.google.com/search/docs/appearance/title-link)》（官方，页面未标注发布日期）
+- Wix：《[Submitting Your Sitemap and URLs Directly to Search Engines](https://support.wix.com/en/article/submitting-your-sitemap-and-urls-directly-to-search-engines)》（第一方，页面未标注发布日期）
