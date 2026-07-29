@@ -18,12 +18,11 @@ REQUIRED = {
     "draft",
 }
 REFERENCE_RE = re.compile(
-    r"^- .+：《\[[^]]+\]\(https?://[^)]+\)》，"
-    r"(?:更新/发布|更新|发布)：(?:\d{4}-\d{2}-\d{2}|未标注)，"
-    r"访问：\d{4}-\d{2}-\d{2}。(?:（(?:官方|第一方)）)?$",
+    r"^- .+：《\[[^]]+\]\(https?://[^)]+\)》"
+    r"（(?:官方|第一方)，页面未标注发布日期）$",
     re.M,
 )
-OFFICIAL_RE = re.compile(r"（(?:官方|第一方)）")
+OFFICIAL_RE = re.compile(r"（(?:官方|第一方)，页面未标注发布日期）")
 METRIC_RE = re.compile(r"\b(?:29K|1\.9M|9\.22K|1\.42M|3,000\+|310K)\b", re.I)
 DISCLAIMER = "以上为任职期间网站整体表现，不作个人单一归因。"
 
@@ -85,6 +84,10 @@ def validate(path: Path) -> list[str]:
         errors.append("resume metrics require the site-wide, non-sole-attribution disclaimer")
     if re.search(r"(我带来|由我实现|我使).{0,20}(点击|展示|流量|线索|排名)", body):
         errors.append("possible sole-attribution performance claim")
+    if re.search(r"(公开履历|公开简历|简历允许|履历中|任职期间)", body):
+        errors.append("reader-facing resume/disclosure language should not appear in articles")
+    if re.search(r"访问：\d{4}-\d{2}-\d{2}", body):
+        errors.append("reader-facing references must not use a verification date after a backdated publication")
     if re.search(r"\b1[3-9]\d{9}\b", text):
         errors.append("possible phone number")
     return errors

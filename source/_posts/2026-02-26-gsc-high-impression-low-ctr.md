@@ -18,7 +18,7 @@ tableOfContents: true
 
 我的方法是先判断页面有没有**可争取的点击机会**，再比较商业价值与修改成本。CTR 只是症状，不是优先级本身。
 
-> 本文的评分是作者用于资源排序的自定义工作方法，不是 Google 官方指标，也不是排名因子。
+> 下面的评分只用于资源排序，不是 Google 官方指标，也不是排名因子。
 
 ## 先别用站点平均 CTR 当标准
 
@@ -110,6 +110,6 @@ Google 说明，snippet 主要由页面内容自动生成，某些情况下才�
 
 ## 参考资料
 
-- Google Search Central：《[Influencing your title links in search results](https://developers.google.com/search/docs/appearance/title-link)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Google Search Central：《[Control your snippets in search results](https://developers.google.com/search/docs/appearance/snippet)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Google Search Central：《[Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)》，更新/发布：未标注，访问：2026-07-28。（官方）
+- Google Search Central：《[Influencing your title links in search results](https://developers.google.com/search/docs/appearance/title-link)》（官方，页面未标注发布日期）
+- Google Search Central：《[Control your snippets in search results](https://developers.google.com/search/docs/appearance/snippet)》（官方，页面未标注发布日期）
+- Google Search Central：《[Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)》（官方，页面未标注发布日期）

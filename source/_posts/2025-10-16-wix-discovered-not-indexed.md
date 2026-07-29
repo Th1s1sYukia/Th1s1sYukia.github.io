@@ -18,11 +18,9 @@ tableOfContents: true
 
 我的处理方式，是把问题拆成六层：**发现 → 抓取 → 渲染 → 内容价值 → 内部链接 → 站点信号**。每一层只在证据支持时继续，不从状态名称直接猜原因。
 
-这套方法以我处理过的匿名 Wix 新站 Sitemap 与 GSC 索引排查经历为背景，只讨论公开简历允许的方法，不披露站点身份或结果。
-
 ## 先确认状态和样本，不先批量请求收录
 
-截至 2026-07-28，Search Console 的 Page Indexing 报告用于查看 Google 已知 URL 的索引状态及未收录原因。第一步应确认：
+Search Console 的 Page Indexing 报告用于查看 Google 已知 URL 的索引状态及未收录原因。第一步应确认：
 
 - 问题是单个 URL、某个模板，还是大量页面；
 - 受影响 URL 是否确实应该被索引；
@@ -129,11 +127,10 @@ Search Console 展示的是 Google 侧的状态和样本，不是完整抓取日
 
 - 新站如何避免页面重复：[先做 Keyword Mapping](/insights/new-site-keyword-mapping/)
 - 页面收录后如何安排迭代：[高曝光低点击页面优先级](/insights/gsc-high-impression-low-ctr/)
-- 本站的事实与案例披露规则：[编辑与 AI 使用说明](/editorial-policy/)
 
 ## 参考资料
 
-- Google Search Console：《[Page indexing report](https://support.google.com/webmasters/answer/7440203?hl=en)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Google Search Console：《[URL Inspection tool](https://support.google.com/webmasters/answer/9012289?hl=en)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Google Crawling Infrastructure：《[Optimize your crawl budget](https://developers.google.com/crawling/docs/crawl-budget)》，更新/发布：未标注，访问：2026-07-28。（官方）
-- Wix：《[Submitting Your Sitemap and URLs Directly to Search Engines](https://support.wix.com/en/article/submitting-your-sitemap-and-urls-directly-to-search-engines)》，更新/发布：未标注，访问：2026-07-28。（第一方）
+- Google Search Console：《[Page indexing report](https://support.google.com/webmasters/answer/7440203?hl=en)》（官方，页面未标注发布日期）
+- Google Search Console：《[URL Inspection tool](https://support.google.com/webmasters/answer/9012289?hl=en)》（官方，页面未标注发布日期）
+- Google Crawling Infrastructure：《[Optimize your crawl budget](https://developers.google.com/crawling/docs/crawl-budget)》（官方，页面未标注发布日期）
+- Wix：《[Submitting Your Sitemap and URLs Directly to Search Engines](https://support.wix.com/en/article/submitting-your-sitemap-and-urls-directly-to-search-engines)》（第一方，页面未标注发布日期）
