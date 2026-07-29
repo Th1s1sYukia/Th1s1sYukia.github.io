@@ -32,6 +32,11 @@ REQUIRED_PATHS = [
     "insights/seo-ads-lead-attribution/index.html",
 ]
 
+READER_FACING_RESUME_LANGUAGE = re.compile(
+    r"公开履历|公开简历|简历允许|履历事实|经历事实库|求职个人品牌|"
+    r"面向招聘方|任职经历披露|职业时间线"
+)
+
 
 def target_exists(public: Path, raw_url: str) -> bool:
     parsed = urlsplit(raw_url)
@@ -64,6 +69,10 @@ def main() -> int:
             errors.append(f"draft marker leaked into {html.relative_to(public)}")
         if "<link rel=\"canonical\"" not in text:
             errors.append(f"missing canonical in {html.relative_to(public)}")
+        if READER_FACING_RESUME_LANGUAGE.search(text):
+            errors.append(
+                f"reader-facing resume language in {html.relative_to(public)}"
+            )
         for url in re.findall(r"""(?:href|src)=["']([^"']+)["']""", text):
             if not target_exists(public, url):
                 errors.append(
