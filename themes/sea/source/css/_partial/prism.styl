@@ -2,7 +2,7 @@ code,
 pre {
   color: var(--sea-code-color);
   background: 0 0;
-  font-family: var(--sea-font-family);
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: .875rem;
   text-align: left;
   white-space: pre;
@@ -37,14 +37,17 @@ pre {
   padding: 1em;
   margin: .5em 0;
   overflow: auto;
-  background: var(--sea-pre-code-bg);
+}
+
+:not(pre)>code,
+pre {
+  background: var(--sea-code-bg);
 }
 
 :not(pre)>code {
-  padding: 0.15em 0.4em;
+  padding: 0.1em;
   border-radius: .3em;
   white-space: normal;
-  background: var(--sea-code-bg);
 }
 
 /*
@@ -69,7 +72,7 @@ pre.line-numbers>code {
   left: -3.8em;
   width: 3em;
   letter-spacing: -1px;
-  border-right: 1px solid var(--sea-color-divider);
+  border-right: 1px solid #999;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -87,17 +90,6 @@ pre.line-numbers>code {
   display: block;
   padding-right: .8em;
   text-align: right;
-}
-
-pre .caption {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  color: #999
-  margin-bottom: 0.5em;
-  font-size: 0.8rem;
-  font-weight: 500;
 }
 
 /* PrismJS 1.29.0

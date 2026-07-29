@@ -6,8 +6,6 @@
   --sea-color-warning: #f59e0b;
   --sea-color-danger: #ef4444;
 
-  --sea-color-warning-bg: #FDF3D8;
-
   --sea-color-gray: #8e8e93;
   --sea-color-gray-1: #ccc;
   --sea-color-gray-2: #eee;
@@ -15,7 +13,7 @@
 
 /* 亮色主题 */
 :root {
-  --sea-color-main-bg: rgba(255, 255, 255);
+  --sea-color-main-bg: rgba(251, 254, 251);
   --sea-color-bg: #f4f4f4;
   --sea-color-header-bg: hsla(0, 0%, 100%, 0.9);
   --sea-post-shadow: rgba(0, 0, 0, .1);
@@ -38,8 +36,7 @@
 
   --sea-code-color: var(--sea-color-black);
   --sea-code-selection: #b3d4fc;
-  --sea-pre-code-bg: rgba(0, 0, 0, 0.03);
-  --sea-code-bg: rgba(0, 0, 0, 0.06);
+  --sea-code-bg: #f4f4f4;
 }
 
 /* 暗色主题 */
@@ -67,20 +64,20 @@ html[theme=dark] {
 
   --sea-code-color: var(--sea-color-white);
   --sea-code-selection: #3b82f680;
-  --sea-pre-code-bg: rgba(255, 255, 255, 0.04);
-  --sea-code-bg: rgba(255, 255, 255, 0.08);
+  --sea-code-bg: #2d2d2d;
 }
 
 :root {
   --sea-main-width: 85%;
   --sea-main-max-width: 800px;
-  --sea-nav-height: 85px;
+  --sea-nav-height: 100px;
 }
 
 /* 字体 */
 :root {
-  --sea-font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
+  --sea-font-family-code: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
     Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --sea-font-family-microsoft: "Microsoft YaHei";
 }
 
 /* 阴影 */

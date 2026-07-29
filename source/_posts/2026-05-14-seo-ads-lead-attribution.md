@@ -1,6 +1,6 @@
 ---
 title: "SEO、Google Ads 和 LinkedIn Ads 如何共用一套落地页与线索归因框架"
-date: 2026-07-28 09:50:00
+date: "2026-05-14 10:00:00"
 updated: 2026-07-28 09:50:00
 description: "用页面身份、UTM、表单事件、去重键和线索阶段组成跨渠道数据合同，让 SEO 与广告在同一口径下协作。"
 categories:

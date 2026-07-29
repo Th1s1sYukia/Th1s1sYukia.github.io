@@ -1,6 +1,6 @@
 ---
 title: "“Discovered - currently not indexed” 怎么排查：Wix 新站诊断树"
-date: 2026-07-28 09:40:00
+date: "2025-10-16 10:00:00"
 updated: 2026-07-28 09:40:00
 description: "用发现、抓取、渲染、内容价值、内部链接和站点信号六层诊断树，排查 Wix 新站 Discovered - currently not indexed。"
 categories:

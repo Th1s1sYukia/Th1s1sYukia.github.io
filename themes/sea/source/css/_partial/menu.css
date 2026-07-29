@@ -29,6 +29,7 @@
 
 .sea-menu-link{
   transition: color .3s ease;
+  white-space: nowrap;
 }
 
 .sea-menu-link:hover,

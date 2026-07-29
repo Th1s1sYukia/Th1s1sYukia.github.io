@@ -9,13 +9,6 @@ a {
   text-decoration: inherit;
 }
 
-html,
-body {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
-
 html {
   font-size: 16px;
   scroll-padding-top: var(--sea-nav-height);
@@ -45,13 +38,12 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100svh;
+  margin: 0;
+  width: 100%;
   min-width: 320px;
   color: var(--sea-color-text-1);
   background-color: var(--sea-color-main-bg);
-  font-family: var(--sea-font-family);
+  font-family: var(--sea-font-family-code);
 
   /* 解决ios下代码块字体样式偏大问题 */
   text-size-adjust: 100%;

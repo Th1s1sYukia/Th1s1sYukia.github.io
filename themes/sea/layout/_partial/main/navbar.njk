@@ -1,7 +1,7 @@
 <nav class="sea-nav-wrap">
-  <div class="sea-nav-logo" title="{{config.subtitle}}">
-    <a href="{{ url_for("/") }}">{{ config.title }}</a>
-  </div>
+  <h1 class="sea-nav-logo" title="{{config.subtitle}}">
+    <a href="{{ url_for("/") }}">{{ theme.navTitle or config.title }}</a>
+  </h1>
   <div class="sea-nav-menus">
     <div id="sea-nav-toggle">
       {{ partial('svg/bars') }}
